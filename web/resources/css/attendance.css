@@ -1,0 +1,48 @@
+.main-container {
+    border: 2px double #e1e1e1;
+    border-radius: 20px;
+    height: 300px;
+    text-align: center;
+    width: 500px;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.welcome-container {
+    text-align: center;
+}
+
+.btn {
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 200px;
+    background: #dfdfdf;
+    display: inline-block;
+}
+
+.btn:hover {
+    background: #4d4542;
+    color: #FFF;
+}
+
+.left-container {
+    display: inline-block;
+}
+
+.right-container {
+    display: inline-block;
+}
+
+.student, .group, .lesson, .mark, .presents {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}

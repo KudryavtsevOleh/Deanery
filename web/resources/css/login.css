@@ -1,0 +1,88 @@
+.main-container {
+    border: 2px double #e1e1e1;
+    border-radius: 20px;
+    height: 300px;
+    text-align: center;
+    width: 500px;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.welcome-container {
+    text-align: center;
+}
+
+.label-container {
+    display: inline-block;
+}
+
+.label-container > .label {
+    padding: 5px;
+}
+
+.input-container {
+    display: inline-block;
+}
+
+.input-container > .input {
+    padding: 5px;
+}
+
+.submit-login {
+    padding: 20px;
+}
+
+.submit-login > .submit-btn {
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 100px;
+    background: #dfdfdf;
+    display: inline-block;
+}
+
+.submit-login > .submit-btn:hover {
+    background: #4d4542;
+    color: #FFF;
+}
+
+.submit-login > .clear-btn {
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 100px;
+    background: #dfdfdf;
+    display: inline-block;
+}
+
+.submit-login > .clear-btn:hover {
+    background: #4d4542;
+    color: #FFF;
+}
+
+.footer-container {
+    position: relative;
+    height: 50px;
+}
+
+
+.footer-container > .footer-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 500px;
+}
+
+.error-message {
+    color: #ff0000;
+}
+
+.ui-widget-overlay {
+    opacity: 0.5;
+    filter: Alpha(Opacity=50);
+    background-color: black;
+}

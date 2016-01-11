@@ -1,0 +1,51 @@
+.main-container {
+    border: 2px double #e1e1e1;
+    border-radius: 20px;
+    height: 300px;
+    text-align: center;
+    width: 700px;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.welcome-container {
+    text-align: center;
+}
+
+.group-container {
+    margin-top: 50px;
+    width: 400px;
+}
+
+.save-group {
+    border: 1px solid;
+    width: 60px;
+    cursor: pointer;
+    border-radius: 10px;
+    background: #dfdfdf;
+}
+
+.save-group:hover {
+    background: #4d4542;
+    color: #FFF;
+}
+
+.group-container, .save-group {
+    display: inline-block;
+}
+
+.empty {
+    text-align: center;
+}
+
+.empty-groups {
+    color: #ff0000;
+}
+
+.error {
+    color: #ff0000;
+}

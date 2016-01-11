@@ -1,0 +1,66 @@
+.main-container {
+    border: 2px double #e1e1e1;
+    border-radius: 20px;
+    height: 300px;
+    text-align: center;
+    width: 700px;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.welcome-container {
+    text-align: center;
+}
+
+.student-container {
+    margin-top: 20px;
+}
+
+.student-info {
+    margin-top: 10px;
+}
+
+.left-block {
+    display: inline-block;
+}
+
+.right-block {
+    display: inline-block;
+}
+
+.info-item {
+    margin-top: 10px;
+    width: 300px;
+}
+
+.add-student, .search-action {
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 100px;
+    background: #dfdfdf;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.add-student:hover, .search-action:hover {
+    background: #4d4542;
+    color: #FFF;
+}
+
+.empty-result {
+    color: #ff0000;
+}
+
+.search-text {
+    width: 300px;
+}
+
+.result-container {
+    text-align: center;
+    margin-top: 30px;
+}
